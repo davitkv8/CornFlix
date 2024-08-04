@@ -4,6 +4,6 @@ I'm working on a demo React project where I'm applying my skills in data fetchin
 
 
 <div align="center">
-  <h1> YouTube </h1>
-    <img src="https://raw.githubusercontent.com/davitkv8/BASIC-CSS-HTML/main/ReactApp.gif" width="800" />
+  <h1> CornFlix </h1>
+    <img src="https://github.com/davitkv8/cornFlix/blob/main/ReactApp.gif?raw=true" width="800" />
 </div>
