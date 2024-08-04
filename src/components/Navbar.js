@@ -12,7 +12,7 @@ export default function Navbar({ onFilterMovies, totalCount }) {
     return (
     <nav>
         <div className="logo-container">
-            <h1 className="logo">🍿usePopcorn</h1>
+            <h1 className="logo">🍿cornFlix</h1>
         </div>
 
         <div className="search-bar">
