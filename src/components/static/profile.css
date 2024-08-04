@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    column-gap: 30px;
+    background-color: #343a40;
+}
+
+.movie-profile {
+    color: #dee2e6;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-details .title {
+    font-size: 25px;
+    width: 80%;
+}
+
+.profile-details p {
+    font-size: 16px;
+}
+
+.profile-thumbnail, .profile-img {
+    width: 132px;
+    height: 205px;
+}
+
+.profile-section {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback {
+    min-width: 285px;
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    background-color: #343a40;
+    padding: 30px;
+    border-radius: 10px;
+    color: #dee2e6;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    color: rgb(252, 196, 25);
+    font-weight: bold;
+}
+
+.feedback img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.to-list-btn {
+    width: 100%;
+    padding: 12px;
+    font: 16px;
+    font-weight: bold;
+    background-color: #6741d9;
+    color: #dee2e6;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.description {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 75%;
+    color: #dee2e6;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.rating {
+    min-width: 20px;
+}
+
+

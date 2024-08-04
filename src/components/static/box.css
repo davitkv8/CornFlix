@@ -1,0 +1,71 @@
+.box {
+    position: relative;
+    background-color: #2b3035;
+    border-radius: 15px;
+    height: 600px;
+    width: 420px;
+}
+
+.scroll-div {
+    overflow-y: scroll;
+}
+
+/* Custom scrollbar styles */
+.scroll-div::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll-div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.scroll-div::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.scroll-div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.toggle-btn {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 900;
+}
+
+.go-back-btn {
+    top: 10px;
+    left: 5px;
+    background-color: #dee2e6;
+    font-size: 20px;
+}
+
+.expand-btn {
+    top: 10px;
+    right: 25px;
+    height: 24px;
+    width: 24px;
+    background-color: #212529;
+    color: #dee2e6;
+    font-size: 15px;
+}
+
+.remove-btn {
+    top: 35px;
+    right: 25px;
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    background-color: #fa5252;
+    color: #212529;
+}
+
+.remove-btn:hover {
+    background-color: #e03131;
+    transition: background-color 0.25s;
+}
